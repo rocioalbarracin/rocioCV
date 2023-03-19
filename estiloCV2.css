@@ -1,0 +1,120 @@
+/**
+Estilos Cuerpo y títulos generale 
+*/
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background-color: rgb(239, 245, 243);
+    margin: 10px;
+    padding: 10px;
+
+}
+
+h2 {
+    margin-top: 1em;
+}
+h3 {
+    margin-top: 2em;
+}
+
+/** 
+Encabezado 
+*/
+header {
+    background-color: #a8adc2;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(25, 22, 22);
+    font-size: x-large;
+    text-align: center;
+}
+
+/** 
+Información personal 
+*/
+.informacion {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding: 1em;
+
+}
+
+/** 
+Foto CV
+*/
+.informacion img {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin-right: 1em;
+}
+
+/**
+Estilo de diferentes secciones: resumen, educación, experiencia, trabajo, habilidades e idiomas con el mismo estilo
+*/
+.resumen, .educacion, .experiencia, .trabajo, .habilidades .idiomas{
+    margin: 1em;
+    padding: 1em;
+}
+
+/**
+Estilo de diferentes listas en secciones: educación, habilidades e idiomas con el mismo estilo
+*/
+.educacion ul, .habilidades ul, .idiomas ul {
+    
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/**
+Sección de experiencia laboral 
+*/
+
+.experiencia h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.experiencia p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #808080;
+}
+
+.experiencia ul {
+    
+    margin-left: 20px;
+}
+.experiencia li {
+    list-style-type:square;
+    
+}
+
+/**
+Sección de iconos de redes sociales
+*/
+.pie {
+    text-align: center;
+}
+
+.social {
+    background-color: #a8adc2;
+    color: #ffffff;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+  
+.social a {
+    margin-right: 10px;
+}
+
+.social img {
+    width:40px;
+}
+
+
+
